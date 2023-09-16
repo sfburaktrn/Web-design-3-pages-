@@ -7,7 +7,7 @@ import ciftTerapisi from "../Image/ciftTerapisi.PNG";
 import oyunTerapisi from "../Image/oyunTerapisi.PNG";
 import travmaTerapisi from "../Image/travmaTerapisi.PNG";
 import deneyimselOyunTerapisi from "../Image/deneyimselOyunTerapisi.PNG";
-
+import covid19 from "../Image/covid19.PNG";
 function Header() {
   return (
     <section className="h-screen flex flex-col">
@@ -66,12 +66,12 @@ function Header() {
           />
         </div>
       </div>
-      <div class="bg-[#EC9D36] p-8">
+      <div class="bg-[#EC9D36] p-8 pb-0">
         <div class="flex justify-center flex-wrap space-x-16 ">
-          <p class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center mb-4 flex-1 md:flex-none md:mb-0">
+          <p class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mb-4 flex-1 md:flex-none md:mb-0">
             GELECEK EĞİTİMLERİMİZ
           </p>
-          <p class="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center mb-4 flex-1 md:flex-none md:mb-0">
+          <p class="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8 mb-4 flex-1 md:flex-none md:mb-0">
             ÖNCEKİ EĞİTİMLERİMİZ
           </p>
         </div>
@@ -82,6 +82,64 @@ function Header() {
           <img className="mx-auto mb-2 md:mx-1" src={deneyimselOyunTerapisi} />
           <img className="mx-auto mb-2 md:mx-1" src={ciftTerapisi} />
         </div>
+        <div class="flex items-center justify-center pt-3 flex-col">
+          <p class="bg-amber-800 rounded-3xl w-auto text-white p-2 text-center px-8 mb-2">
+            TARİH SEÇİNİZ Ağustos 2022
+          </p>
+          <div class="flex items-center justify-center w-16 bg-white">
+            <span class="text-[#EC9D36] text-xl font-bold"> &lt; &gt; </span>
+          </div>
+        </div>
+      </div>
+      <div class=" text-center  bg-[#65266C] py-2 ">
+        <a class="text-white bg-[#833A8A] py-2 px-52">ÇİFT VE EVLİLİK</a>
+      </div>
+      <div className="flex ">
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+      </div>
+      <div class=" text-center  bg-[#65266C] py-2 ">
+        <a class="text-white bg-[#833A8A] py-2 px-52">ÇİFT VE EVLİLİK</a>
+      </div>
+      <div className="flex ">
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+      </div>
+      <div class=" text-center  bg-[#65266C] py-2 ">
+        <a class="text-white bg-[#833A8A] py-2 px-52">ÇİFT VE EVLİLİK</a>
+      </div>
+      <div className="flex ">
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+      </div>
+      <div class=" text-center  bg-[#65266C] py-2 ">
+        <a class="text-white bg-[#833A8A] py-2 px-52">ÇİFT VE EVLİLİK</a>
+      </div>
+      <div className="flex ">
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+      </div>
+      <div class=" text-center  bg-[#65266C] py-2 ">
+        <a class="text-white bg-[#833A8A] py-2 px-52">ÇİFT VE EVLİLİK</a>
+      </div>
+      <div className="flex ">
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
+        <img className="mx-auto flex-grow w-full" src={covid19} alt="covid19" />
       </div>
     </section>
   );
