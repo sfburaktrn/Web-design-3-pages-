@@ -91,40 +91,40 @@ function English() {
         </a>
       </div>
       <div className="lg:border border-amber-500  rounded lg:ml-40 lg:mr-40 md:mr-0 md:ml-0 sm:mr-0 sm:ml-0 md:border-0 sm:border-0 ">
-        <div className="lg:flex mt-5 mb-5 lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
-          <div className="lg:flex-1 lg:flex-col md:mt-10 md:ml-6 sm:mt-10 sm:ml-6">
+        <div className="flex flex-col items-center justify-center mt-5 mb-5 lg:flex-row md:flex-col sm:flex-col">
+          <div className="lg:w-1/3 md:w-full sm:w-full">
             <p className="text-2xl font-bold">ENGLISH FOR BEGINNERS</p>
             <p className="pt-3">Filiz Kaya Ataklı ve Özge Altan Aytun</p>
-            <img className="pt-8" src={iconEnglish} alt="iconEnglish" />
+            <img className="pt-8 mx-auto" src={iconEnglish} alt="iconEnglish" />
           </div>
-          <div className="lg:flex-1 md:flex-1 sm:flex-1">
+          <div className="lg:w-1/3 md:w-full sm:w-full">
             <img
-              className="mx-auto w-auto lg:items-center sm:items-center md:items-center"
+              className="mx-auto w-auto"
               src={englishPhoto}
               alt="englishPhoto"
             />
           </div>
-          <div className="lg:flex-1 lg:mt-10 lg:mr-4 md:mr-0 sm:mr-0 md:mt-10 md:flex-col sm:mt-10 sm:flex-col">
-            <p className="lg:text-right md:text-center sm:text-center">
+          <div className="lg:w-1/3 md:w-full sm:w-full mt-10">
+            <p className="lg:text-center md:text-center sm:text-center">
               <span className="font-bold">BEGINNING </span>01 Ekim 09.30
             </p>
-            <p className="lg:text-right  md:text-center sm:text-center">
+            <p className="lg:text-center md:text-center sm:text-center">
               <span className="font-bold">FINISH </span>02 Ekim 18.00
             </p>
-            <p className="lg:text-right  md:text-center sm:text-center">
+            <p className="lg:text-center md:text-center sm:text-center">
               <span className="font-bold">PRICE </span>910 USD
             </p>
           </div>
         </div>
       </div>
       <div className="mt-10 lg:mr-36 lg:ml-40">
-        <p className="">
+        <p className="text-center ml-3">
           It's a scary time. We are in the midst of a worldwide epidemic, with
           cities and even countries shutting down. Some of us are already in
           areas heavily af- fected by the coronavirus, and we're all watching
           the news and asking. "What next?" we wonder.
         </p>
-        <p className="mt-5">
+        <p className=" mt-5 ml-3 text-center">
           For many people, the uncertainty surrounding the coronavirus is the
           hardest thing to experience right now. We don't know exactly how we
           will be affect- ed or how bad things might get. And that can make it
