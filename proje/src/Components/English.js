@@ -8,7 +8,6 @@ import ciftTerapisi from "../Image/ciftTerapisi.PNG";
 import oyunTerapisi from "../Image/oyunTerapisi.PNG";
 import travmaTerapisi from "../Image/travmaTerapisi.PNG";
 import deneyimselOyunTerapisi from "../Image/deneyimselOyunTerapisi.PNG";
-import covid19 from "../Image/covid19.PNG";
 import footerLogo2 from "../Image/footerLogo2.PNG";
 import twitterIcon from "../Image/twitterIcon.PNG";
 import facebookIcon from "../Image/facebookIcon.PNG";
@@ -16,6 +15,31 @@ import instagramIcon from "../Image/instagramIcon.PNG";
 import englishPhoto from "../Image/englishPhoto.PNG";
 import iconEnglish from "../Image/iconEnglish.PNG";
 import englishYoutube from "../Image/englishYoutube.PNG";
+import ce1 from "../Image/heroPhoto/ce1.PNG";
+import ce2 from "../Image/heroPhoto/ce2.png";
+import ce3 from "../Image/heroPhoto/ce3.png";
+import ce4 from "../Image/heroPhoto/ce4.png";
+import ce5 from "../Image/heroPhoto/ce5.png";
+import y1 from "../Image/heroPhoto/y1.png";
+import y2 from "../Image/heroPhoto/y2.png";
+import y3 from "../Image/heroPhoto/y3.png";
+import y4 from "../Image/heroPhoto/y4.png";
+import y5 from "../Image/heroPhoto/y5.png";
+import co1 from "../Image/heroPhoto/co1.png";
+import co2 from "../Image/heroPhoto/co2.png";
+import co3 from "../Image/heroPhoto/co3.png";
+import co4 from "../Image/heroPhoto/co4.png";
+import co5 from "../Image/heroPhoto/co5.png";
+import k1 from "../Image/heroPhoto/k1.png";
+import k2 from "../Image/heroPhoto/k2.png";
+import k3 from "../Image/heroPhoto/k3.png";
+import k4 from "../Image/heroPhoto/k4.png";
+import k5 from "../Image/heroPhoto/k5.png";
+import p1 from "../Image/heroPhoto/p1.png";
+import p2 from "../Image/heroPhoto/p2.png";
+import p3 from "../Image/heroPhoto/p3.png";
+import p4 from "../Image/heroPhoto/p4.png";
+import p5 from "../Image/heroPhoto/p5.png";
 
 function English() {
   return (
@@ -172,7 +196,7 @@ function English() {
               <input
                 type="text"
                 id="cvc"
-                className="lg:w-96  md:w-auto sm:w-auto lg:ml-6 md:ml-0 sm:ml-0  p-2 border rounded"
+                className="lg:w-96  md:w-auto sm:w-auto lg:ml-8 md:ml-0 sm:ml-0  p-2 border rounded"
                 placeholder="CVC"
               />
             </div>
@@ -289,108 +313,108 @@ function English() {
 
         <div className="flex flex-col  sm:flex-row">
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={ce1} alt="ce1" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={ce2} alt="ce2" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={ce3} alt="ce3" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={ce4} alt="ce4" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={ce5} alt="ce5" />
           </div>
         </div>
 
         <div className=" text-center  bg-[#0061A6] py-2 ">
-          <a className="text-white bg-[#009CE0] py-2  sm:px-10 lg:px-52">
-            ÇİFT VE EVLİLİK
+          <a className="text-white bg-[#009CE0] py-2  sm:px-10 lg:px-56">
+            YETİŞKİN
           </a>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={y1} alt="y1" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={y2} alt="y2" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={y3} alt="y3" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={y4} alt="y4" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={y5} alt="y5" />
           </div>
         </div>
         <div className=" text-center  bg-red-400 py-2 ">
-          <a className="text-white bg-red-300 py-2  sm:px-10 lg:px-52">
-            ÇİFT VE EVLİLİK
+          <a className="text-white bg-red-300 py-2  sm:px-10 lg:px-48">
+            ÇOCUK VE ERGEN
           </a>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={co1} alt="co1" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={co2} alt="co2" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={co3} alt="co3" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={co4} alt="co4" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={co5} alt="co5" />
           </div>
         </div>
         <div className=" text-center  bg-cyan-500 py-2 ">
           <a className="text-white bg-cyan-300 py-2  sm:px-10 lg:px-52">
-            ÇİFT VE EVLİLİK
+            KİŞİSEL GELİŞİM
           </a>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={k1} alt="k1" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={k2} alt="k2" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={k3} alt="k3" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={k4} alt="k4" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={k5} alt="k5" />
           </div>
         </div>
         <div className=" text-center  bg-amber-500 py-2 ">
-          <a className="text-white bg-amber-300 py-2  sm:px-10 lg:px-52">
-            ÇİFT VE EVLİLİK
+          <a className="text-white bg-amber-300 py-2  sm:px-10 lg:px-44">
+            PSİKOLOJİ ARAŞTIRMALARI
           </a>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={p1} alt="p1" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={p2} alt="p2" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={p3} alt="p3" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={p4} alt="p4" />
           </div>
           <div className="flex-1">
-            <img className="mx-auto w-full" src={covid19} alt="covid19" />
+            <img className="mx-auto w-full" src={p5} alt="p5" />
           </div>
         </div>
       </main>
@@ -401,10 +425,10 @@ function English() {
             src={footerLogo2}
             alt="footerLogo2"
           />
-          <p>Valikonağı Caddesi Sezai Selek Sk.</p>
-          <p>No:20 D:5 Nişantaşı / İstanbul</p>
-          <p>0212 233 28 38</p>
-          <p>bilgi@psikolojistanbul.com</p>
+          <p className="text-white">Valikonağı Caddesi Sezai Selek Sk.</p>
+          <p className="text-white">No:20 D:5 Nişantaşı / İstanbul</p>
+          <p className="text-white">0212 233 28 38</p>
+          <p className="text-white">bilgi@psikolojistanbul.com</p>
         </div>
         <div className=" h-44  border-r border-gray-400 mt-6  ">
           {/* bu dikey çizgi */}
@@ -428,15 +452,15 @@ function English() {
             <div className="lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
               <form className="mt-4 ">
                 <div className="flex">
-                  <p>AD Soyad</p>
+                  <p className="text-white font-mono">AD Soyad</p>
                   <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-3" />
                 </div>
                 <div className="flex">
-                  <p>TELEFON</p>
+                  <p className="text-white font-mono">TELEFON</p>
                   <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-5" />
                 </div>
                 <div className="flex">
-                  <p>E-MAIL</p>
+                  <p className="text-white font-mono">E-MAIL</p>
                   <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-8" />
                 </div>
               </form>
