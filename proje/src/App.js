@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import IndexSlider from "./Components/Slider.js";
-import Uyekayit from "./Components/Uyekayit.js";
-import English from "./Components/English.js";
+import IndexSlider from "./Pages/Slider.js";
+import Uyekayit from "./Pages/Uyekayit.js";
+import English from "./Pages/English.js";
 
 function App() {
   const [areButtonsVisible, setButtonsVisibility] = useState(true);
