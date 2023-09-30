@@ -1,0 +1,9 @@
+/* CSS dosyasında tanımlamalar */
+.filter-custom {
+  filter: invert(25%) sepia(100%) saturate(90%) hue-rotate(263deg)
+    brightness(105%) contrast(90%);
+}
+
+.filter-text {
+  color: rgba(101, 38, 108, 0.5); /* #65266C renginin daha transparan hali */
+}

@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import "../Pages/Slider22.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import svgBaslik from "../Svg/baslik.svg";
 import Istanbul from "../Image2/Layer 75.png";
 import Istanbulmor from "../Image2/Layer 71 mor.png";
@@ -10,6 +13,11 @@ import svgtarih from "../Svg/tarih.svg";
 import svgkalp from "../Svg/kalp.svg";
 import svgkaydetme from "../Svg/kaydetme.svg";
 import svggönderme from "../Svg/gönderme.svg";
+import layer52 from "../Image2/Layer 52 copy.png";
+import layer53 from "../Svg/layer53.svg";
+import layer54 from "../Svg/layer54.svg";
+import layer55 from "../Svg/layer55.svg";
+import layer56 from "../Svg/layer56.svg";
 
 const sliderContent = [
   {
@@ -44,6 +52,24 @@ const sliderContent = [
 
 function Slider2() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isFiltered, setIsFiltered] = useState({
+    layer52: true,
+    layer53: true,
+    layer54: true,
+    layer55: true,
+    layer56: true,
+  });
+
+  const handleImageClick = (layer) => {
+    setIsFiltered((prevIsFiltered) => ({
+      ...Object.fromEntries(
+        Object.keys(prevIsFiltered).map((key) => [
+          key,
+          key === layer ? !prevIsFiltered[key] : prevIsFiltered[key],
+        ])
+      ),
+    }));
+  };
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -232,6 +258,86 @@ function Slider2() {
                 {" "}
                 &lt; &gt;{" "}
               </span>
+            </div>
+          </div>
+        </div>
+        <div className="text-center bg-[#65266C] py-2">
+          <a className="text-white bg-[#833A8A] py-2 sm:px-10 lg:px-52">
+            ÇİFT VE EVLİLİK
+          </a>
+        </div>
+        <div className="flex flex-col  sm:flex-row">
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer52 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer52")}
+          >
+            <img className="mx-auto w-full" src={layer52} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid19 Sürecinde <br /> Psikolojik Sağlık
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer53 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer53")}
+          >
+            <img className="mx-auto w-full" src={layer53} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Anksiyete Bozukluğu <br /> Olanlar İçin Covid Süreci
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer54 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer54")}
+          >
+            <img className="mx-auto w-full" src={layer54} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid-19 Sürecinin
+                  <br /> Psikososyal Yükümlülükleri
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer55 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer55")}
+          >
+            <img className="mx-auto w-full" src={layer55} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">Depresyonun Beden Dili</span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer56 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer56")}
+          >
+            <img className="mx-auto w-full" src={layer56} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">İlişkilerde Beklentiler</span>
+              </p>
             </div>
           </div>
         </div>
