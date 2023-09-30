@@ -13,11 +13,16 @@ import svgtarih from "../Svg/tarih.svg";
 import svgkalp from "../Svg/kalp.svg";
 import svgkaydetme from "../Svg/kaydetme.svg";
 import svggönderme from "../Svg/gönderme.svg";
-import layer52 from "../Image2/Layer 52 copy.png";
+import layer52 from "../Svg/layer52.svg";
 import layer53 from "../Svg/layer53.svg";
 import layer54 from "../Svg/layer54.svg";
 import layer55 from "../Svg/layer55.svg";
 import layer56 from "../Svg/layer56.svg";
+import layer57 from "../Svg/layer57.svg";
+import layer58 from "../Svg/layer58.svg";
+import layer59 from "../Svg/layer59.svg";
+import layer60 from "../Svg/layer60.svg";
+import layer61 from "../Svg/layer61.svg";
 
 const sliderContent = [
   {
@@ -58,6 +63,11 @@ function Slider2() {
     layer54: true,
     layer55: true,
     layer56: true,
+    layer57: true,
+    layer58: true,
+    layer59: true,
+    layer60: true,
+    layer61: true,
   });
 
   const handleImageClick = (layer) => {
@@ -334,6 +344,86 @@ function Slider2() {
             onClick={() => handleImageClick("layer56")}
           >
             <img className="mx-auto w-full" src={layer56} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">İlişkilerde Beklentiler</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" text-center  bg-[#0061A6] py-2 ">
+          <a className="text-white bg-[#009CE0] py-2  sm:px-10 lg:px-56">
+            YETİŞKİN
+          </a>
+        </div>
+        <div className="flex flex-col  sm:flex-row">
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer57 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer57")}
+          >
+            <img className="mx-auto w-full" src={layer57} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid19 Sürecinde <br /> Psikolojik Sağlık
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer58 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer58")}
+          >
+            <img className="mx-auto w-full" src={layer58} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Anksiyete Bozukluğu <br /> Olanlar İçin Covid Süreci
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer60 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer60")}
+          >
+            <img className="mx-auto w-full" src={layer60} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid-19 Sürecinin
+                  <br /> Psikososyal Yükümlülükleri
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer61 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer61")}
+          >
+            <img className="mx-auto w-full" src={layer61} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">Depresyonun Beden Dili</span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer59 && "filter brightness-50"
+            }`}
+            onClick={() => handleImageClick("layer59")}
+          >
+            <img className="mx-auto w-full" src={layer59} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
                 <span className="p-2">İlişkilerde Beklentiler</span>
