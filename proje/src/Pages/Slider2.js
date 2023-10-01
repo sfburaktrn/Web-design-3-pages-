@@ -23,6 +23,25 @@ import layer58 from "../Svg/layer58.svg";
 import layer59 from "../Svg/layer59.svg";
 import layer60 from "../Svg/layer60.svg";
 import layer61 from "../Svg/layer61.svg";
+import layer62 from "../Svg/layer62.svg";
+import layer63 from "../Svg/layer63.svg";
+import layer64 from "../Svg/layer64.svg";
+import layer65 from "../Svg/layer65.svg";
+import layer66 from "../Svg/layer66.svg";
+import layer52copy from "../Svg/layer52copy.svg";
+import layer53copy from "../Svg/layer53copy.svg";
+import layer54copy from "../Svg/layer54copy.svg";
+import layer55copy from "../Svg/layer55copy.svg";
+import layer56copy from "../Svg/layer56copy.svg";
+import layer57copy from "../Svg/layer57copy.svg";
+import layer58copy from "../Svg/layer58copy.svg";
+import layer59copy from "../Svg/layer59copy.svg";
+import layer60copy from "../Svg/layer60copy.svg";
+import layer61copy from "../Svg/layer61copy.svg";
+import footerLogo2 from "../Image/footerLogo2.PNG";
+import twitterIcon from "../Image/twitterIcon.PNG";
+import facebookIcon from "../Image/facebookIcon.PNG";
+import instagramIcon from "../Image/instagramIcon.PNG";
 
 const sliderContent = [
   {
@@ -68,6 +87,21 @@ function Slider2() {
     layer59: true,
     layer60: true,
     layer61: true,
+    layer62: true,
+    layer63: true,
+    layer64: true,
+    layer65: true,
+    layer66: true,
+    layer52copy: true,
+    layer53copy: true,
+    layer54copy: true,
+    layer55copy: true,
+    layer56copy: true,
+    layer57copy: true,
+    layer58copy: true,
+    layer59copy: true,
+    layer60copy: true,
+    layer61copy: true,
   });
 
   const handleMouseEnter = (layer) => {
@@ -301,6 +335,7 @@ function Slider2() {
             onTouchEnd={() => handleTouchEnd("layer52")}
           >
             <img className="mx-auto w-full" src={layer52} alt="ce1" />
+
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
                 <span className="p-2">
@@ -398,9 +433,7 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer57} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">
-                  Covid19 Sürecinde <br /> Psikolojik Sağlık
-                </span>
+                <span className="p-2">Erkekler Ağlamaz</span>
               </p>
             </div>
           </div>
@@ -418,7 +451,7 @@ function Slider2() {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
                 <span className="p-2">
-                  Anksiyete Bozukluğu <br /> Olanlar İçin Covid Süreci
+                  Erkekler İçin Daha İyi Bir <br /> Eş Olmanın Üç Adımı
                 </span>
               </p>
             </div>
@@ -436,8 +469,8 @@ function Slider2() {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
                 <span className="p-2">
-                  Covid-19 Sürecinin
-                  <br /> Psikososyal Yükümlülükleri
+                  Duygularını Tanı
+                  <br /> İfade Et,Kazan
                 </span>
               </p>
             </div>
@@ -454,7 +487,10 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer61} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">Depresyonun Beden Dili</span>
+                <span className="p-2">
+                  Yetişkinlerde Dikkat
+                  <br /> Eksikliği'nde Koçluk Desteği
+                </span>
               </p>
             </div>
           </div>
@@ -470,12 +506,362 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer59} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Suçluluk Hakkında <br /> Bilmediğiniz 10 Şey
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" text-center  bg-red-400 py-2 ">
+          <a className="text-white bg-red-300 py-2  sm:px-10 lg:px-48">
+            ÇOCUK VE ERGEN
+          </a>
+        </div>
+        <div className="flex flex-col  sm:flex-row">
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer62 && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer62")}
+            onMouseLeave={() => handleMouseLeave("layer62")}
+            onTouchStart={() => handleTouchStart("layer62")}
+            onTouchEnd={() => handleTouchEnd("layer62")}
+          >
+            <img className="mx-auto w-full" src={layer62} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">Erkekler Ağlamaz</span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer65 && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer65")}
+            onMouseLeave={() => handleMouseLeave("layer65")}
+            onTouchStart={() => handleTouchStart("layer65")}
+            onTouchEnd={() => handleTouchEnd("layer65")}
+          >
+            <img className="mx-auto w-full" src={layer65} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Erkekler İçin Daha İyi Bir <br /> Eş Olmanın Üç Adımı
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer63 && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer63")}
+            onMouseLeave={() => handleMouseLeave("layer63")}
+            onTouchStart={() => handleTouchStart("layer63")}
+            onTouchEnd={() => handleTouchEnd("layer63")}
+          >
+            <img className="mx-auto w-full" src={layer63} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Duygularını Tanı
+                  <br /> İfade Et,Kazan
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer64 && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer64")}
+            onMouseLeave={() => handleMouseLeave("layer64")}
+            onTouchStart={() => handleTouchStart("layer64")}
+            onTouchEnd={() => handleTouchEnd("layer64")}
+          >
+            <img className="mx-auto w-full" src={layer64} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Yetişkinlerde Dikkat
+                  <br /> Eksikliği'nde Koçluk Desteği
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer66 && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer66")}
+            onMouseLeave={() => handleMouseLeave("layer66")}
+            onTouchStart={() => handleTouchStart("layer66")}
+            onTouchEnd={() => handleTouchEnd("layer66")}
+          >
+            <img className="mx-auto w-full" src={layer66} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Suçluluk Hakkında <br /> Bilmediğiniz 10 Şey
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className=" text-center  bg-cyan-500 py-2 ">
+          <a className="text-white bg-cyan-300 py-2  sm:px-10 lg:px-52">
+            KİŞİSEL GELİŞİM
+          </a>
+        </div>
+        <div className="flex flex-col  sm:flex-row">
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer52copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer52copy")}
+            onMouseLeave={() => handleMouseLeave("layer52copy")}
+            onTouchStart={() => handleTouchStart("layer52copy")}
+            onTouchEnd={() => handleTouchEnd("layer52copy")}
+          >
+            <img className="mx-auto w-full" src={layer52copy} alt="ce1" />
+
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid19 Sürecinde <br /> Psikolojik Sağlık
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer53copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer53copy")}
+            onMouseLeave={() => handleMouseLeave("layer53copy")}
+            onTouchStart={() => handleTouchStart("layer53copy")}
+            onTouchEnd={() => handleTouchEnd("layer53copy")}
+          >
+            <img className="mx-auto w-full" src={layer53copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Anksiyete Bozukluğu <br /> Olanlar İçin Covid Süreci
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer54copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer54copy")}
+            onMouseLeave={() => handleMouseLeave("layer54copy")}
+            onTouchStart={() => handleTouchStart("layer54copy")}
+            onTouchEnd={() => handleTouchEnd("layer54copy")}
+          >
+            <img className="mx-auto w-full" src={layer54copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Covid-19 Sürecinin
+                  <br /> Psikososyal Yükümlülükleri
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer55copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer55copy")}
+            onMouseLeave={() => handleMouseLeave("layer55copy")}
+            onTouchStart={() => handleTouchStart("layer55copy")}
+            onTouchEnd={() => handleTouchEnd("layer55copy")}
+          >
+            <img className="mx-auto w-full" src={layer55copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">Depresyonun Beden Dili</span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer56copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer56copy")}
+            onMouseLeave={() => handleMouseLeave("layer56copy")}
+            onTouchStart={() => handleTouchStart("layer56copy")}
+            onTouchEnd={() => handleTouchEnd("layer56copy")}
+          >
+            <img className="mx-auto w-full" src={layer56copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
                 <span className="p-2">İlişkilerde Beklentiler</span>
               </p>
             </div>
           </div>
         </div>
+        <div className=" text-center  bg-amber-500 py-2 ">
+          <a className="text-white bg-amber-300 py-2  sm:px-10 lg:px-44">
+            PSİKOLOJİ ARAŞTIRMALARI
+          </a>
+        </div>
+        <div className="flex flex-col  sm:flex-row">
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer57copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer57copy")}
+            onMouseLeave={() => handleMouseLeave("layer57copy")}
+            onTouchStart={() => handleTouchStart("layer57copy")}
+            onTouchEnd={() => handleTouchEnd("layer57copy")}
+          >
+            <img className="mx-auto w-full" src={layer57copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">Erkekler Ağlamaz</span>
+              </p>
+            </div>
+          </div>
+
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer58copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer58copy")}
+            onMouseLeave={() => handleMouseLeave("layer58copy")}
+            onTouchStart={() => handleTouchStart("layer58copy")}
+            onTouchEnd={() => handleTouchEnd("layer58copy")}
+          >
+            <img className="mx-auto w-full" src={layer58copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Erkekler İçin Daha İyi Bir <br /> Eş Olmanın Üç Adımı
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer60copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer60copy")}
+            onMouseLeave={() => handleMouseLeave("layer60copy")}
+            onTouchStart={() => handleTouchStart("layer60copy")}
+            onTouchEnd={() => handleTouchEnd("layer60copy")}
+          >
+            <img className="mx-auto w-full" src={layer60copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Duygularını Tanı
+                  <br /> İfade Et,Kazan
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer61copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer61copy")}
+            onMouseLeave={() => handleMouseLeave("layer61copy")}
+            onTouchStart={() => handleTouchStart("layer61copy")}
+            onTouchEnd={() => handleTouchEnd("layer61copy")}
+          >
+            <img className="mx-auto w-full" src={layer61copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Yetişkinlerde Dikkat
+                  <br /> Eksikliği'nde Koçluk Desteği
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className={`flex-1 relative cursor-pointer ${
+              isFiltered.layer59copy && "filter brightness-50"
+            }`}
+            onMouseEnter={() => handleMouseEnter("layer59copy")}
+            onMouseLeave={() => handleMouseLeave("layer59copy")}
+            onTouchStart={() => handleTouchStart("layer59copy")}
+            onTouchEnd={() => handleTouchEnd("layer59copy")}
+          >
+            <img className="mx-auto w-full" src={layer59copy} alt="ce1" />
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
+              <p className="text-white text-base font-extralight">
+                <span className="p-2">
+                  Suçluluk Hakkında <br /> Bilmediğiniz 10 Şey
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
+      <footer className="bg-[#414042] lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col  pb-12  ">
+        <div className="flex-1 ml-12 mt-8">
+          <img
+            className="self-center mb-4"
+            src={footerLogo2}
+            alt="footerLogo2"
+          />
+          <p className="text-white">Valikonağı Caddesi Sezai Selek Sk.</p>
+          <p className="text-white">No:20 D:5 Nişantaşı / İstanbul</p>
+          <p className="text-white">0212 233 28 38</p>
+          <p className="text-white">bilgi@psikolojistanbul.com</p>
+        </div>
+        <div className=" h-44  border-r border-gray-400 mt-6  ">
+          {/* bu dikey çizgi */}
+        </div>
+        <div className="flex-1 flex items-center justify-center">
+          <div className="flex">
+            <img src={facebookIcon} alt="facebookIcon" />
+            <img src={twitterIcon} alt="twitterIcon" />
+            <img src={instagramIcon} alt="instagramIcon" />
+          </div>
+        </div>
+        <div className=" h-44  border-r border-gray-400 mt-6  ">
+          {/* bu dikey çizgi */}
+        </div>
+        <div className="flex-1 flex-row ml-12 mt-8">
+          <h5 className="text-[#6EC0DE]">
+            PSİKOLOJİ İSTANBUL EĞİTİM VE MAKALELERİNDEN
+          </h5>
+          <h5 className="text-[#6EC0DE]">HABERDAR OLMAK İSTİYORUM.</h5>
+          <div className="flex flex-col">
+            <div className="lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col">
+              <form className="mt-4 ">
+                <div className="flex">
+                  <p className="text-white font-mono">AD Soyad</p>
+                  <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-3" />
+                </div>
+                <div className="flex">
+                  <p className="text-white font-mono">TELEFON</p>
+                  <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-5" />
+                </div>
+                <div className="flex">
+                  <p className="text-white font-mono">E-MAIL</p>
+                  <input className="border-t-0 border-l-0 border-r-0 border-b border-white bg-[#414042] ml-8" />
+                </div>
+              </form>
+              <button
+                type="submit"
+                className="bg-[#73A3BA] text-[#414042] mt-6 ml-10 lg:w-28 md:w-auto sm:w-auto "
+              >
+                GÖNDER
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
   );
 }
