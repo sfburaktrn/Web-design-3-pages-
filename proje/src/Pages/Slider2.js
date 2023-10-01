@@ -70,17 +70,19 @@ function Slider2() {
     layer61: true,
   });
 
-  const handleImageClick = (layer) => {
+  const handleMouseEnter = (layer) => {
     setIsFiltered((prevIsFiltered) => ({
-      ...Object.fromEntries(
-        Object.keys(prevIsFiltered).map((key) => [
-          key,
-          key === layer ? !prevIsFiltered[key] : prevIsFiltered[key],
-        ])
-      ),
+      ...prevIsFiltered,
+      [layer]: false, // efekt kaldır
     }));
   };
 
+  const handleMouseLeave = (layer) => {
+    setIsFiltered((prevIsFiltered) => ({
+      ...prevIsFiltered,
+      [layer]: true, // efekt geri getir
+    }));
+  };
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % sliderContent.length);
@@ -281,7 +283,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer52 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer52")}
+            onMouseEnter={() => handleMouseEnter("layer52")}
+            onMouseLeave={() => handleMouseLeave("layer52")}
           >
             <img className="mx-auto w-full" src={layer52} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -297,7 +300,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer53 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer53")}
+            onMouseEnter={() => handleMouseEnter("layer53")}
+            onMouseLeave={() => handleMouseLeave("layer53")}
           >
             <img className="mx-auto w-full" src={layer53} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -312,7 +316,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer54 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer54")}
+            onMouseEnter={() => handleMouseEnter("layer54")}
+            onMouseLeave={() => handleMouseLeave("layer54")}
           >
             <img className="mx-auto w-full" src={layer54} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -328,7 +333,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer55 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer55")}
+            onMouseEnter={() => handleMouseEnter("layer55")}
+            onMouseLeave={() => handleMouseLeave("layer55")}
           >
             <img className="mx-auto w-full" src={layer55} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -341,7 +347,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer56 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer56")}
+            onMouseEnter={() => handleMouseEnter("layer56")}
+            onMouseLeave={() => handleMouseLeave("layer56")}
           >
             <img className="mx-auto w-full" src={layer56} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -361,7 +368,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer57 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer57")}
+            onMouseEnter={() => handleMouseEnter("layer57")}
+            onMouseLeave={() => handleMouseLeave("layer57")}
           >
             <img className="mx-auto w-full" src={layer57} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -377,7 +385,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer58 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer58")}
+            onMouseEnter={() => handleMouseEnter("layer58")}
+            onMouseLeave={() => handleMouseLeave("layer58")}
           >
             <img className="mx-auto w-full" src={layer58} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -392,7 +401,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer60 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer60")}
+            onMouseEnter={() => handleMouseEnter("layer60")}
+            onMouseLeave={() => handleMouseLeave("layer60")}
           >
             <img className="mx-auto w-full" src={layer60} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -408,7 +418,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer61 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer61")}
+            onMouseEnter={() => handleMouseEnter("layer61")}
+            onMouseLeave={() => handleMouseLeave("layer61")}
           >
             <img className="mx-auto w-full" src={layer61} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -421,7 +432,8 @@ function Slider2() {
             className={`flex-1 relative cursor-pointer ${
               isFiltered.layer59 && "filter brightness-50"
             }`}
-            onClick={() => handleImageClick("layer59")}
+            onMouseEnter={() => handleMouseEnter("layer59")}
+            onMouseLeave={() => handleMouseLeave("layer59")}
           >
             <img className="mx-auto w-full" src={layer59} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
