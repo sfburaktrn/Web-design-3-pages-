@@ -83,6 +83,12 @@ function Slider2() {
       [layer]: true, // efekt geri getir
     }));
   };
+  const handleTouchStart = (layer) => {
+    setIsFiltered((prevIsFiltered) => ({
+      ...prevIsFiltered,
+      [layer]: !prevIsFiltered[layer], // mobil için dokunma
+    }));
+  };
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % sliderContent.length);
@@ -285,6 +291,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer52")}
             onMouseLeave={() => handleMouseLeave("layer52")}
+            onTouchStart={() => handleTouchStart("layer52")}
           >
             <img className="mx-auto w-full" src={layer52} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -302,6 +309,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer53")}
             onMouseLeave={() => handleMouseLeave("layer53")}
+            onTouchStart={() => handleTouchStart("layer53")}
           >
             <img className="mx-auto w-full" src={layer53} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -318,6 +326,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer54")}
             onMouseLeave={() => handleMouseLeave("layer54")}
+            onTouchStart={() => handleTouchStart("layer54")}
           >
             <img className="mx-auto w-full" src={layer54} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -335,6 +344,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer55")}
             onMouseLeave={() => handleMouseLeave("layer55")}
+            onTouchStart={() => handleTouchStart("layer55")}
           >
             <img className="mx-auto w-full" src={layer55} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -349,6 +359,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer56")}
             onMouseLeave={() => handleMouseLeave("layer56")}
+            onTouchStart={() => handleTouchStart("layer56")}
           >
             <img className="mx-auto w-full" src={layer56} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -370,6 +381,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer57")}
             onMouseLeave={() => handleMouseLeave("layer57")}
+            onTouchStart={() => handleTouchStart("layer57")}
           >
             <img className="mx-auto w-full" src={layer57} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -387,6 +399,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer58")}
             onMouseLeave={() => handleMouseLeave("layer58")}
+            onTouchStart={() => handleTouchStart("layer58")}
           >
             <img className="mx-auto w-full" src={layer58} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -403,6 +416,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer60")}
             onMouseLeave={() => handleMouseLeave("layer60")}
+            onTouchStart={() => handleTouchStart("layer60")}
           >
             <img className="mx-auto w-full" src={layer60} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -420,6 +434,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer61")}
             onMouseLeave={() => handleMouseLeave("layer61")}
+            onTouchStart={() => handleTouchStart("layer61")}
           >
             <img className="mx-auto w-full" src={layer61} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
@@ -434,6 +449,7 @@ function Slider2() {
             }`}
             onMouseEnter={() => handleMouseEnter("layer59")}
             onMouseLeave={() => handleMouseLeave("layer59")}
+            onTouchStart={() => handleTouchStart("layer59")}
           >
             <img className="mx-auto w-full" src={layer59} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
