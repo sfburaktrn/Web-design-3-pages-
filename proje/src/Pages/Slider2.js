@@ -12,6 +12,7 @@ import svgtarih from "../Svg/tarih.svg";
 import svgkalp from "../Svg/kalp.svg";
 import svgkaydetme from "../Svg/kaydetme.svg";
 import svggönderme from "../Svg/gönderme.svg";
+import search from "../Svg/search.svg";
 import layer52 from "../Svg/layer52.svg";
 import layer53 from "../Svg/layer53.svg";
 import layer54 from "../Svg/layer54.svg";
@@ -159,28 +160,26 @@ function Slider2() {
           </a>
         </div>
         <img className="mx-auto mb-4 w-auto" src={svgBaslik} alt="Logo" />
-        <div className="flex flex-wrap  justify-center  ">
-          <a href="/services" className=" ml-auto m-5 text-xl font-semibold ">
-            HİZMETLERİMİZ
-          </a>
-          <a href="/articles" className=" m-5 text-xl font-semibold">
-            MAKALELER
-          </a>
-          <a href="/about" className=" m-5 text-xl font-semibold">
-            HAKKIMIZDA
-          </a>
-          <a href="/calendar" className=" m-5 text-xl font-semibold">
-            EĞİTİM TAKVİMİ
-          </a>
-          <a href="/contact" className=" m-5 text-xl font-semibold">
-            İLETİŞİM
-          </a>
-          <div className="mx-16">
-            <input
-              type="text"
-              placeholder="Search"
-              className="  h-8 border-collapse w-72  bg-gray-300 rounded-2xl "
-            />
+        <div className="flex flex-col sm:flex-row items-center">
+          <div className="flex flex-wrap justify-center lg:ml-auto ">
+            <a href="/services" className="m-5 text-xl font-semibold">
+              HİZMETLERİMİZ
+            </a>
+            <a href="/articles" className="m-5 text-xl font-semibold">
+              MAKALELER
+            </a>
+            <a href="/about" className="m-5 text-xl font-semibold">
+              HAKKIMIZDA
+            </a>
+            <a href="/calendar" className="m-5 text-xl font-semibold">
+              EĞİTİM TAKVİMİ
+            </a>
+            <a href="/contact" className="m-5 text-xl font-semibold">
+              İLETİŞİM
+            </a>
+          </div>
+          <div className="mt-5 lg:ml-auto sm:mt-0">
+            <img className="w-64 h-8" src={search} alt="Search" />
           </div>
         </div>
       </header>
