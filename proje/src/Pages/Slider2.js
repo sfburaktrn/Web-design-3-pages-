@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "../Pages/Slider22.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import svgBaslik from "../Svg/baslik.svg";
@@ -63,14 +62,14 @@ const sliderContent = [
     overlayImage: Istanbulmor,
     headerImage: yazihead,
     title: "PARTNER ŞİDDETİ PANEL-WORKSHOP 3",
-    description: "İSTANBUL'DA YÜZ YÜZE VE ONLINE KATILIMLA 1",
+    description: "İSTANBUL'DA YÜZ YÜZE VE ONLINE KATILIMLA 3",
   },
   {
     image: Istanbul,
     overlayImage: Istanbulmor,
     headerImage: yazihead,
     title: "PARTNER ŞİDDETİ PANEL-WORKSHOP 4",
-    description: "İSTANBUL'DA YÜZ YÜZE VE ONLINE KATILIMLA 1",
+    description: "İSTANBUL'DA YÜZ YÜZE VE ONLINE KATILIMLA 4",
   },
 ];
 
@@ -196,30 +195,30 @@ function Slider2() {
           src={sliderContent[currentSlide].overlayImage}
           alt="overlay"
         />
-        <div className="absolute w-80 sm:w-96 md:w-120 lg:w-160 xl:w-192 h-auto flex items-center justify-center">
+        <div className="absolute w-80 sm:w-96 md:w-96 lg:w-160 xl:w-192 h-auto flex items-center justify-center">
           <img
             src={sliderContent[currentSlide].headerImage}
             alt="centeredImage"
           />
         </div>
-        <div className="absolute inset-x-0 bottom-14 text-center hidden md:block sm:block ">
+        <div className="absolute bottom-14 text-center hidden md:block sm:block ">
           <span className="font-semibold text-4xl text-white  ">
             {sliderContent[currentSlide].title}
           </span>
           <span className="font-thin text-white text-base block">
             {sliderContent[currentSlide].description}
           </span>
-          <div className="flex justify-center mt-4">
-            {sliderContent.map((slide, index) => (
-              <div
-                key={index}
-                onClick={() => handleDotClick(index)}
-                className={`w-2 h-2 mx-2 bottom-14 rounded-full border border-white cursor-pointer ${
-                  index === currentSlide ? "bg-white" : "bg-transparent"
-                }`}
-              />
-            ))}
-          </div>
+        </div>
+        <div className="absolute flex justify-center bottom-1">
+          {sliderContent.map((slide, index) => (
+            <div
+              key={index}
+              onClick={() => handleDotClick(index)}
+              className={`w-2 h-2 mx-2  rounded-full border border-white cursor-pointer ${
+                index === currentSlide ? "bg-white" : "bg-transparent"
+              }`}
+            />
+          ))}
         </div>
       </div>
       <main>
@@ -327,7 +326,7 @@ function Slider2() {
         <div className="flex flex-col  sm:flex-row">
           <div
             className={`flex-1 relative cursor-pointer ${
-              isFiltered.layer52 && "filter brightness-50"
+              isFiltered.layer52 && "filter brightness-50 "
             }`}
             onMouseEnter={() => handleMouseEnter("layer52")}
             onMouseLeave={() => handleMouseLeave("layer52")}
