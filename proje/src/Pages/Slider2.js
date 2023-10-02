@@ -318,11 +318,12 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className="text-center bg-[#65266C] py-2">
-          <a className="text-white bg-[#833A8A] py-2 sm:px-10 lg:px-52">
+        <div className="text-center bg-[#65266C]  flex justify-center items-center">
+          <span className="text-white bg-[#833A8A] sm:px-10 lg:px-52">
             ÇİFT VE EVLİLİK
-          </a>
+          </span>
         </div>
+
         <div className="flex flex-col  sm:flex-row">
           <div
             className={`flex-1 relative cursor-pointer ${
@@ -414,10 +415,10 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className=" text-center  bg-[#0061A6] py-2 ">
-          <a className="text-white bg-[#009CE0] py-2  sm:px-10 lg:px-56">
+        <div className=" text-center  bg-[#0061A6] flex justify-center items-center ">
+          <span className="text-white bg-[#009CE0]   sm:px-10 lg:px-56">
             YETİŞKİN
-          </a>
+          </span>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div
@@ -512,10 +513,10 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className=" text-center  bg-red-400 py-2 ">
-          <a className="text-white bg-red-300 py-2  sm:px-10 lg:px-48">
+        <div className=" text-center  bg-red-400 flex justify-center items-center">
+          <span className="text-white bg-red-300   sm:px-10 lg:px-48">
             ÇOCUK VE ERGEN
-          </a>
+          </span>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div
@@ -610,10 +611,10 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className=" text-center  bg-cyan-500 py-2 ">
-          <a className="text-white bg-cyan-300 py-2  sm:px-10 lg:px-52">
+        <div className=" text-center  bg-cyan-500 flex justify-center items-center ">
+          <span className="text-white bg-cyan-300  sm:px-10 lg:px-52">
             KİŞİSEL GELİŞİM
-          </a>
+          </span>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div
@@ -706,10 +707,10 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className=" text-center  bg-amber-500 py-2 ">
-          <a className="text-white bg-amber-300 py-2  sm:px-10 lg:px-44">
+        <div className=" text-center  bg-amber-500 flex justify-center items-center ">
+          <span className="text-white bg-amber-300   sm:px-10 lg:px-44">
             PSİKOLOJİ ARAŞTIRMALARI
-          </a>
+          </span>
         </div>
         <div className="flex flex-col  sm:flex-row">
           <div
