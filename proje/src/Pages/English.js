@@ -207,7 +207,7 @@ function English() {
             <div className="mb-4  flex items-center">
               <label
                 htmlFor="cardName"
-                className="block mb-1 text-gray-800 mr-2"
+                className="block mb-1 text-gray-800 lg:mr-2 sm:mr-0"
               >
                 Kart Üzerindeki İsim
               </label>
@@ -222,7 +222,7 @@ function English() {
             <div className="mb-4 flex items-center">
               <label
                 htmlFor="cardNumber"
-                className="block mb-1 text-gray-800 mr-2"
+                className="block mb-1 text-gray-800 lg:mr-2 sm:mr-0"
               >
                 Kart Numarası
               </label>
@@ -235,7 +235,10 @@ function English() {
             </div>
 
             <div className="mb-4 flex items-center">
-              <label htmlFor="expiry" className="block mb-1 text-gray-800 mr-2">
+              <label
+                htmlFor="expiry"
+                className="block mb-1 text-gray-800 lg:mr-2 sm:mr-0"
+              >
                 Son Kullanma Tarihi
               </label>
               <input
@@ -247,7 +250,10 @@ function English() {
             </div>
 
             <div className="mb-4 flex items-center">
-              <label htmlFor="cvc" className="block mb-1 text-gray-800 mr-2">
+              <label
+                htmlFor="cvc"
+                className="block mb-1 text-gray-800lg:mr-2 sm:mr-0"
+              >
                 Güvenlik Kodu
               </label>
               <input
@@ -261,7 +267,7 @@ function English() {
             <div className="mb-4 flex items-center">
               <label
                 htmlFor="paymentMethod"
-                className="block mb-1 text-gray-800 mr-2"
+                className="block mb-1 text-gray-800 lg:mr-2 sm:mr-0"
               >
                 Ödeme Yöntemi
               </label>
