@@ -148,15 +148,15 @@ function Slider2() {
       <header>
         <div className="flex lg:justify-end sm:justify-center sm:mt-5 lg:mr-4 lg:mt-5 mb-4 sm:mb-0">
           <a href="register.html" className="btn btn-primary mr-2">
-            Üye OL
+            ÜYE OL
           </a>
           <div className="border-r border-black h-6 mx-2"></div>
           <a href="login.html" className="btn btn-primary mx-2">
-            Giriş Yap
+            GİRİŞ YAP
           </a>
           <div className="border-r border-black h-6 mx-2"></div>
           <a href="online-certificates.html" className="btn btn-primary ml-2">
-            Online Sertifika Al
+            ONLINE SERTİFİKA AL
           </a>
         </div>
 
@@ -263,11 +263,11 @@ function Slider2() {
         </div>
 
         <div className="bg-[#EC9D36] h-auto  ">
-          <div class="flex flex-row justify-center items-center pt-2 mx-2">
-            <span class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
+          <div className="flex flex-row justify-center items-center pt-2 mx-2">
+            <span className="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
               GELECEK EĞİTİMLERİMİZ
             </span>
-            <span class="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8">
+            <span className="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8">
               ÖNCEKİ EĞİTİMLERİMİZ
             </span>
           </div>
