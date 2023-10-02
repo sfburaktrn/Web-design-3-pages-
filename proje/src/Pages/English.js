@@ -200,7 +200,7 @@ function English() {
         {/*buraya normalde youtube videosu gelecek tasarım için sadece img koydum */}
       </div>
       <div className="lg:w-auto lg:mx-auto md:w-auto md:mx-auto sm:w-auto sm:mx-auto mt-10 p-6 flex flex-col items-center">
-        <div className=" mx-auto p-6 bg-white rounded-md border border-gray-300 lg:flex lg:flex-row items-center md:flex md:flex-col sm:flex sm:flex-col">
+        <div className=" mx-auto p-4 bg-white rounded-md border border-gray-300 lg:flex lg:flex-row items-center md:flex md:flex-col sm:flex sm:flex-col">
           <div className="lg:w-auto md:w-auto sm:w-auto pr-6">
             <h2 className="text-base font-bold mb-4">Kredi Kartı </h2>
 
