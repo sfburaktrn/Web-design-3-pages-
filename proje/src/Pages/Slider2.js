@@ -146,7 +146,7 @@ function Slider2() {
   return (
     <section className="h-screen flex flex-col">
       <header>
-        <div className="flex justify-end mr-4 mt-3">
+        <div className="flex lg:justify-end sm:justify-center mr-4 mt-3">
           <a href="register.html" className="btn btn-primary">
             Üye OL
           </a>
@@ -534,7 +534,10 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer62} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">Erkekler Ağlamaz</span>
+                <span className="p-2">
+                  İnsanın Akış Hali:
+                  <br /> Muhteşem Deneyim
+                </span>
               </p>
             </div>
           </div>
@@ -551,9 +554,7 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer65} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">
-                  Erkekler İçin Daha İyi Bir <br /> Eş Olmanın Üç Adımı
-                </span>
+                <span className="p-2">Yas Kaç Yıl Sürer</span>
               </p>
             </div>
           </div>
@@ -570,8 +571,8 @@ function Slider2() {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
                 <span className="p-2">
-                  Duygularını Tanı
-                  <br /> İfade Et,Kazan
+                  Kalp Mi Aşık Olur,
+                  <br /> Yoksa Beyin Mi?
                 </span>
               </p>
             </div>
@@ -588,10 +589,7 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer64} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">
-                  Yetişkinlerde Dikkat
-                  <br /> Eksikliği'nde Koçluk Desteği
-                </span>
+                <span className="p-2">Aşk Ve Beynimiz</span>
               </p>
             </div>
           </div>
@@ -607,9 +605,7 @@ function Slider2() {
             <img className="mx-auto w-full" src={layer66} alt="ce1" />
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center text-center items-center">
               <p className="text-white text-base font-extralight">
-                <span className="p-2">
-                  Suçluluk Hakkında <br /> Bilmediğiniz 10 Şey
-                </span>
+                <span className="p-2">Depresyon İle Mücadele</span>
               </p>
             </div>
           </div>
