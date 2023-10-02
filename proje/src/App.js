@@ -8,7 +8,7 @@ import Taslak from "./Pages/Slider2.js";
 function App() {
   return (
     <div>
-      <Taslak />
+      <English />
     </div>
   );
 }

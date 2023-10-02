@@ -146,19 +146,20 @@ function Slider2() {
   return (
     <section className="h-screen flex flex-col">
       <header>
-        <div className="flex lg:justify-end sm:justify-center mr-4 mt-3">
-          <a href="register.html" className="btn btn-primary">
+        <div className="flex lg:justify-end sm:justify-center sm:mt-5 lg:mr-4 lg:mt-5 mb-4 sm:mb-0">
+          <a href="register.html" className="btn btn-primary mr-2">
             Üye OL
           </a>
           <div className="border-r border-black h-6 mx-2"></div>
-          <a href="login.html" className="btn btn-primary">
+          <a href="login.html" className="btn btn-primary mx-2">
             Giriş Yap
           </a>
           <div className="border-r border-black h-6 mx-2"></div>
-          <a href="online-certificates.html" className="btn btn-primary">
+          <a href="online-certificates.html" className="btn btn-primary ml-2">
             Online Sertifika Al
           </a>
         </div>
+
         <img className="mx-auto mb-4 w-auto" src={svgBaslik} alt="Logo" />
         <div className="flex flex-col sm:flex-row items-center">
           <div className="flex flex-wrap justify-center lg:ml-auto ">
@@ -239,19 +240,28 @@ function Slider2() {
               </div>
             </div>
 
-            <div className="w-full lg:w-1/3 sm:w-1/2  p-4">
-              <div className="flex lg:flex-row sm:flex-col md:flex-row bg-[#DDDDDD] justify-between items-center py-4 px-4 h-44">
-                <p className="mr-2">
-                  Çoktan
-                  <br /> Seçmeli
-                  <br /> Online
-                  <br /> Testler
-                </p>
-                <img className="w-32 h-28" src={svgkiz} alt="kiz" />
+            <div className="w-full lg:w-1/3 sm:w-1/2 p-4">
+              <div className="relative flex lg:flex-row sm:flex-col md:flex-row justify-between items-center py-4  h-44">
+                <div className="h-44 lg:w-auto sm:w-120">
+                  <img
+                    className="h-full w-full object-cover"
+                    src={svgkiz}
+                    alt="kiz"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 p-4">
+                  <p className="mr-2 text-2xl font-extralight">
+                    Çoktan
+                    <br /> Seçmeli
+                    <br /> Online
+                    <br /> Testler
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="bg-[#EC9D36] h-auto  ">
           <div class="flex flex-row justify-center items-center pt-2 mx-2">
             <span class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
