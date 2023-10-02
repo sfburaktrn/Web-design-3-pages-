@@ -201,7 +201,7 @@ function Slider2() {
             alt="centeredImage"
           />
         </div>
-        <div className="absolute bottom-14 text-center hidden md:block sm:block ">
+        <div className="absolute bottom-10 text-center hidden md:block sm:block ">
           <span className="font-semibold text-4xl text-white  ">
             {sliderContent[currentSlide].title}
           </span>
