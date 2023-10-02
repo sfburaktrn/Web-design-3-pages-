@@ -38,10 +38,10 @@ import layer58copy from "../Svg/layer58copy.svg";
 import layer59copy from "../Svg/layer59copy.svg";
 import layer60copy from "../Svg/layer60copy.svg";
 import layer61copy from "../Svg/layer61copy.svg";
-import footerLogo2 from "../Image/footerLogo2.PNG";
-import twitterIcon from "../Image/twitterIcon.PNG";
-import facebookIcon from "../Image/facebookIcon.PNG";
-import instagramIcon from "../Image/instagramIcon.PNG";
+import footerLogo2 from "../Image2/footerLogo2.PNG";
+import twitterIcon from "../Image2/twitterIcon.PNG";
+import facebookIcon from "../Image2/facebookIcon.PNG";
+import instagramIcon from "../Image2/instagramIcon.PNG";
 
 const sliderContent = [
   {
@@ -144,7 +144,7 @@ function Slider2() {
   };
 
   return (
-    <section className="h-screen flex flex-col">
+    <section className="h-screen w-full flex flex-col">
       <header>
         <div className="flex lg:justify-end sm:justify-center sm:mt-5 lg:mr-4 lg:mt-5 mb-4 sm:mb-0">
           <a href="register.html" className="btn btn-primary mr-2">

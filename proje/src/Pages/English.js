@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import englishPhoto from "../Image/englishPhoto.PNG";
-import iconEnglish from "../Image/iconEnglish.PNG";
-import englishYoutube from "../Image/englishYoutube.PNG";
+import englishPhoto from "../Image2/englishPhoto.PNG";
+import iconEnglish from "../Image2/iconEnglish.PNG";
+import englishYoutube from "../Image2/englishYoutube.PNG";
 import svgBaslik from "../Svg/baslik.svg";
-import Istanbul from "../Image2/Layer 75.png";
-import Istanbulmor from "../Image2/Layer 71 mor.png";
-import yazihead from "../Image2/Layer 74.png";
 import svgcomputer from "../Svg/computer.svg";
 import svgtakvim from "../Svg/takvim.svg";
 import svgkiz from "../Svg/kiz.svg";
@@ -41,10 +38,10 @@ import layer58copy from "../Svg/layer58copy.svg";
 import layer59copy from "../Svg/layer59copy.svg";
 import layer60copy from "../Svg/layer60copy.svg";
 import layer61copy from "../Svg/layer61copy.svg";
-import footerLogo2 from "../Image/footerLogo2.PNG";
-import twitterIcon from "../Image/twitterIcon.PNG";
-import facebookIcon from "../Image/facebookIcon.PNG";
-import instagramIcon from "../Image/instagramIcon.PNG";
+import footerLogo2 from "../Image2/footerLogo2.PNG";
+import twitterIcon from "../Image2/twitterIcon.PNG";
+import facebookIcon from "../Image2/facebookIcon.PNG";
+import instagramIcon from "../Image2/instagramIcon.PNG";
 
 function English() {
   const [isFiltered, setIsFiltered] = useState({
@@ -102,7 +99,7 @@ function English() {
   };
 
   return (
-    <section className="h-screen flex flex-col">
+    <section className="h-screen w-full  flex flex-col">
       <header>
         <div className="flex lg:justify-end sm:justify-center sm:mt-5 lg:mr-4 lg:mt-5 mb-4 sm:mb-0">
           <a href="register.html" className="btn btn-primary mr-2">
@@ -142,10 +139,10 @@ function English() {
           </div>
         </div>
       </header>
-      <div className=" text-center  bg-amber-500 py-2 ">
-        <a className="text-white bg-amber-300 py-2  sm:px-10 lg:px-52 font-bold">
+      <div className=" text-center  bg-amber-500 flex justify-center items-center ">
+        <span className="text-white bg-amber-300 px-8">
           ENGLISH EDUCATION SALES PAGE
-        </a>
+        </span>
       </div>
       <div className="lg:border border-amber-500  rounded lg:ml-40 lg:mr-40 md:mr-0 md:ml-0 sm:mr-0 sm:ml-0 md:border-0 sm:border-0 ">
         <div className="flex flex-col items-center justify-center mt-5 mb-5 lg:flex-row md:flex-col sm:flex-col">
