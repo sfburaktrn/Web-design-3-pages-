@@ -253,28 +253,20 @@ function Slider2() {
             </div>
           </div>
         </div>
-        <div className="bg-[#EC9D36] ">
-          <div className="flex justify-center flex-wrap space-x-16 pt-2 ">
-            <p className="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mb-4 flex-1 md:flex-none md:mb-0">
+        <div className="bg-[#EC9D36] h-auto  ">
+          <div class="flex flex-row justify-center items-center pt-2">
+            <span class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
               GELECEK EĞİTİMLERİMİZ
-            </p>
-            <p className="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8 mb-4 flex-1 md:flex-none md:mb-0">
+            </span>
+            <span class="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8">
               ÖNCEKİ EĞİTİMLERİMİZ
-            </p>
+            </span>
           </div>
-          <div className="flex flex-col md:flex-row md:justify-center pt-3">
-            <div className="w-96 h-44 flex lg:flex-row sm:flex-col md:flex-col bg-[#F8B6A2] justify-between items-center py-4 px-4  mr-6 relative ">
-              <p className="text-left">Sensorimotor Travma Terapisi Eğitimi</p>
-              <div className="absolute right-0 top-0 bottom-0 bg-white flex flex-col justify-center items-end">
-                <img className="w-8 h-8 mb-2" src={svgtarih} alt="Image 1" />
-                <img className="w-8 h-8 mb-2" src={svgkalp} alt="Image 2" />
-                <img className="w-8 h-8 mb-2" src={svgkaydetme} alt="Image 3" />
-                <img className="w-8 h-8 mb-2" src={svggönderme} alt="Image 4" />
-              </div>
-            </div>
-            <div className="w-96 flex lg:flex-row sm:flex-col md:flex-col bg-[#40BDB7]  justify-between items-center py-4 px-4 h-44 mr-6 relative">
-              <p className="text-left">
-                Nilüfer Deveciğil İle Oyun Terapisinde Aile İle Çalışmak
+
+          <div className="flex flex-col md:flex-row md:justify-center mt-3 ">
+            <div className=" lg:w-96 md:w-auto sm:w-auto h-44 flex lg:flex-row sm:flex-col md:flex-col bg-[#F8B6A2] justify-between items-center mx-2   relative ">
+              <p className="text-left lg:ml-24 text-white font-thin text-xl">
+                Sensorimotor <br /> Travma Terapisi Eğitimi
               </p>
               <div className="absolute right-0 top-0 bottom-0 bg-white flex flex-col justify-center items-end">
                 <img className="w-8 h-8 mb-2" src={svgtarih} alt="Image 1" />
@@ -283,9 +275,23 @@ function Slider2() {
                 <img className="w-8 h-8 mb-2" src={svggönderme} alt="Image 4" />
               </div>
             </div>
-            <div className="w-96 flex lg:flex-row sm:flex-col md:flex-col bg-[#DC80B7]  justify-between items-center py-4 px-4 h-44 mr-6 relative">
-              <p className="text-left">
-                Online:Deneyimsel Oyun Terapisi 1.Düzey Eğitimi
+            <div className=" lg:w-96 md:w-auto sm:w-auto   flex lg:flex-row sm:flex-col md:flex-col bg-[#40BDB7]  justify-between items-center mx-2 h-44  relative">
+              <span className="text-left lg:ml-24  text-white font-thin text-xl ">
+                Nilüfer Deveciğil İle <br /> Oyun Terapisinde <br />
+                Aile İle Çalışmak
+              </span>
+              <div className="absolute right-0 top-0 bottom-0 bg-white flex flex-col justify-center items-end">
+                <img className="w-8 h-8 mb-2" src={svgtarih} alt="Image 1" />
+                <img className="w-8 h-8 mb-2" src={svgkalp} alt="Image 2" />
+                <img className="w-8 h-8 mb-2" src={svgkaydetme} alt="Image 3" />
+                <img className="w-8 h-8 mb-2" src={svggönderme} alt="Image 4" />
+              </div>
+            </div>
+            <div className=" lg:w-96 md:w-auto sm:w-auto   flex lg:flex-row sm:flex-col md:flex-col bg-[#DC80B7]  justify-between items-center mx-2 h-44  relative">
+              <p className="text-left lg:ml-24  text-white font-thin text-xl">
+                Online:Deneyimsel <br />
+                Oyun Terapisi
+                <br /> 1.Düzey Eğitimi
               </p>
               <div className="absolute right-0 top-0 bottom-0 bg-white flex flex-col justify-center items-end">
                 <img className="w-8 h-8 mb-2" src={svgtarih} alt="Image 1" />
@@ -294,9 +300,11 @@ function Slider2() {
                 <img className="w-8 h-8 mb-2" src={svggönderme} alt="Image 4" />
               </div>
             </div>
-            <div className="w-96 flex lg:flex-row sm:flex-col md:flex-col bg-[#95B1BE]  justify-between items-center py-4 px-4 h-44 mr-6 relative">
-              <p className="text-left">
-                Gottman Çift Terapisi 1. Düzey Eğitimi
+            <div className=" lg:w-96 md:w-auto sm:w-auto  flex lg:flex-row sm:flex-col md:flex-col bg-[#95B1BE]  justify-between items-center mx-2  h-44  relative">
+              <p className="text-left lg:ml-24  text-white font-thin text-xl">
+                Gottman
+                <br /> Çift Terapisi
+                <br /> 1. Düzey Eğitimi
               </p>
               <div className="absolute right-0 top-0 bottom-0 bg-white flex flex-col justify-center items-end">
                 <img className="w-8 h-8 mb-2" src={svgtarih} alt="Image 1" />
