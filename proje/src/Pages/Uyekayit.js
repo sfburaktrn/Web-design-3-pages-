@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import svgBaslik from "../Svg/baslik.svg";
-
 import svgcomputer from "../Svg/computer.svg";
 import svgtakvim from "../Svg/takvim.svg";
 import svgkiz from "../Svg/kiz.svg";
@@ -253,11 +251,11 @@ function Uyekayit() {
         </div>
 
         <div className="bg-[#EC9D36] h-auto  ">
-          <div class="flex flex-row justify-center items-center pt-2 mx-2">
-            <span class="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
+          <div className="flex flex-row justify-center items-center pt-2 mx-2">
+            <span className="bg-amber-800 rounded-3xl w-auto text-black p-4 text-center px-8 mr-8">
               GELECEK EĞİTİMLERİMİZ
             </span>
-            <span class="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8">
+            <span className="bg-emerald-400 rounded-3xl w-auto text-gray-50 p-4 text-center px-8">
               ÖNCEKİ EĞİTİMLERİMİZ
             </span>
           </div>

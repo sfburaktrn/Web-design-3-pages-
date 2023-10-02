@@ -132,7 +132,7 @@ function Slider2() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % sliderContent.length);
-    }, 3000); // Geçiş 3 saniyede
+    }, 1500); // Geçiş 1.5 saniyede
 
     return () => {
       clearInterval(intervalId);
